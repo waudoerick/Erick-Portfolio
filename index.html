@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">WAUDO_ERICK</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> 
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h2>Hello ,I am <span>Waudo<br>Erick </span> from Nairobi</h2>
+            </div>
+        </div>
+   </div> 
+   <!-- about section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/kugate.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="desc"> Devoted IT personnel with  experience in hardware, user support, Web development , network administration  and cloud technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web Development Technologies with modern frameworks;Angular and Django<br>With profound knowledge of HTML5,CSS3,Tailwind,Javascript and Python</li>
+                        <li><span>Networking</span><br>Networking skills about switching,Routing,Virtual Lans,Wan and<br>Network Securities</li>
+                        <li><span>Data Science</span><br> Machine Learning with python.Data  modeling and Visualization with Numpy,pandas Seaborns.</li>
+                        <li><span>Cloud Computing</span><br>Cloud Infrastructure and Cloud security  and cloud services </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Information Technology Assistant</span><br>Woked as an IT assistant at Hope WorldWide Kenya from 2024 to 20th FEB 2025<br> Where i carried duties such as ;Networking,User support,Software maintenance, <br> troubleshootin ,Managing and updating the organisation website and facilitating <br>the E-filing of document on the cloud storage</li>
+                        <li><span>Executive scanner</span><br>Spearheade the scanning of documents at CIC insurance and uploaded <br>their documents to their servers</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Kenyatta University</span><br>Bachelor of Science Inforamtion Technology</li>
+                        <p id="course">Professional Development Courses</p>
+                        <li><span>CISCO Networking Academy</span><br>2024:August Certfied Network Associate 2</li>
+                        <li><span>Cisco Networking Academy</span><br> 2024 May:Certfied Networking Associate 1</li>
+                        <li><span>CCSK Cloud Security Alliance</span><br>2024 Feb: Cloud Security</li>
+                        <li><span>CISCO Networking Academy</span><br>2023 June:Introduction to Cybersecurity</li>
+                        <li><span>CISCO Networking Academy</span><br>2023 July:Cybersecurity Essentials</li>
+                        <li><span>National Research Fund Grant2016/2017</span><br>2021 July:Data Science Machine Learning with Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--portfolio Section  -->
+   <div id="portfolio">
+    <div class="conatiner">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/mahinani.jpeg">
+                <div class="layer">
+                    <h3>Mashinani Farmers System</h3>
+                    <p>This is a web based system that stores famers data,guides them on they carry out the farming  and provides platform  for seling their farm produce.</p>
+                    <a href="#">mashinani sys</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3>Mashinani Farmers System</h3>
+                    <p>This is a web based system that stores famers data,guides them on they carry out the farming  and provides platform  for seling their farm produce.</p>
+                    <a href="#">mashinani sys</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3>Mashinani Farmers System</h3>
+                    <p>This is a web based system that stores famers data,guides them on they carry out the farming  and provides platform  for seling their farm produce.</p>
+                    <a href="#">mashinani sys</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- contact section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> waudoerick@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +254708028053</p>
+                <div class="socila-icons">
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="www.linkedin.com/in/erick-waudo-technology-personel"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required >
+                    <input type="email" name="Email" placeholder="your Email" required >
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+              
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Waudo_Erick, Copyright &copy;2026</p>
+    </div>
+</div>
+
+   <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+   </script>
+   <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziHSb_UL95HoD0XpMR1O6nT_XV9EyiQJ1XhiaBoehgCkbS5S27h2tcEIIs08bwtJ-PaA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
