@@ -298,7 +298,7 @@ form .btn:hover{
 @media only screen and (max-width: 600px){
     
     #header{
-        background-image: url(Images/karuri.jpeg);
+        background-image: url(Images/Waudo.jpeg);
     }
     .row{
         flex-direction: column;
