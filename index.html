@@ -14,7 +14,8 @@
         <div class="container">
             <nav>
                 <h1 class="logo">WAUDO_ERICK</h1>
-                <ul>
+                <i class="fa-solid fa-bars menu-icon" onclick="toggleMenu()"></i>
+                <ul id="menu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Projects</a></li>
@@ -172,5 +173,13 @@
             .catch(error => console.error('Error!', error.message))
         })
     </script>
+<script>
+    const menu = document.getElementById("menu");
+
+    function toggleMenu(){
+        menu.classList.toggle("show-menu");
+    }
+</script>
+
 </body>
 </html>
