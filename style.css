@@ -305,3 +305,9 @@ form .btn:hover{
     font-weight: 700;
     margin-left: 340px;
 }
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
