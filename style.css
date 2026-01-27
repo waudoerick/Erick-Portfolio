@@ -348,7 +348,7 @@ nav ul {
         position: absolute;
         top: 60px;
         right: 0;
-        background: #000;
+        /* background: #000; */
         width: 100%;
         flex-direction: column;
         text-align: center;
